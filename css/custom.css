@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url('../fonts/ubuntu-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Ubuntu Bold";
+  src: url('../fonts/ubuntu-bold.ttf') format('truetype');
+}
+
+.r88-title {
+  font-weight: bold;
+}
+
+.r88-fonts {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1, h2, h3, strong {
+  font-family: "Ubuntu Bold", sans-serif;
+}
+
