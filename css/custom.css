@@ -8,6 +8,10 @@
   src: url('../fonts/ubuntu-bold.ttf') format('truetype');
 }
 
+.r88-max-width {
+  max-width: 720px;
+}
+
 .r88-title {
   font-weight: bold;
 }
