@@ -12,15 +12,27 @@
   max-width: 720px;
 }
 
-.r88-title {
+.r88-header {
   font-weight: bold;
+  text-align: right;
 }
 
-.r88-fonts {
+.r88-logo {
+  display: block;
+  max-width: 33%;
+  padding: 1rem 0;
+}
+
+.r88-body {
   font-family: "Ubuntu", sans-serif;
+  color: white;
+  background: linear-gradient(#0053FA, #000000);
 }
 
 h1, h2, h3, strong {
   font-family: "Ubuntu Bold", sans-serif;
 }
 
+a {
+  color: #FA3C19;
+}
