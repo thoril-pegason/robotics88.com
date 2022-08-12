@@ -25,7 +25,6 @@
 .r88-body {
   font-family: "Ubuntu", sans-serif;
   color: white;
-  background: linear-gradient(#0053FA, #000000);
 }
 
 h1, h2, h3, strong {
@@ -34,4 +33,12 @@ h1, h2, h3, strong {
 
 a {
   color: #FA3C19;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  text-align: right;
 }
