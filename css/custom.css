@@ -1,38 +1,73 @@
 @font-face {
-  font-family: "Ubuntu";
-  src: url('../fonts/ubuntu-regular.ttf') format('truetype');
+  font-family: "Gin";
+  src: url('../fonts/gin.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "Ubuntu Bold";
-  src: url('../fonts/ubuntu-bold.ttf') format('truetype');
+  font-family: "Montserrat Light";
+  src: url('../fonts/montserrat-light.woff2') format('woff2');
 }
 
-.r88-max-width {
-  max-width: 720px;
+@font-face {
+  font-family: "Playfair Display";
+  src: url('../fonts/playfair-display.woff2') format('woff2');
 }
 
-.r88-header {
-  font-weight: bold;
-  text-align: right;
+:root {
+  --color-dark: #373A36;
+  --color-light: #DAE1E9;
+  --color-action: #6ABF4B;
+  --color-iconic: #5B7F95;
+  --color-light-accent: #4C9C2E;
+  --color-dark-accent: #4A773C;
+  --color-warning-accent: #CF922F;
+  --color--danger-accent: #F44336;
 }
 
 .r88-logo {
   display: block;
-  max-width: 33%;
+  max-width: 720px;
 }
 
 .r88-body {
-  font-family: "Ubuntu", sans-serif;
-  color: white;
+  font-family: "Montserrat Light", sans-serif;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  background-image: url("../img/asfalt-light.png");
+  background-attachment: fixed;
+}
+
+.r88-max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.r88-emoji {
+  max-width: 12rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: -6rem;
+}
+
+article:nth-child(odd) {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  background-image: url("../img/cardboard.png");
 }
 
 h1, h2, h3, strong {
-  font-family: "Ubuntu Bold", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+h1, h2 {
+  font-family: "Gin", serif;
+  text-align: center;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 2px var(--color-iconic);
 }
 
 a {
-  color: #FA3C19;
+  color: var(--color-light-accent);
 }
 
 li {
@@ -41,4 +76,30 @@ li {
 
 footer {
   text-align: right;
+  margin: 0;
+  padding: 5rem;
+  background-color: black;
+}
+
+
+.card-group {
+  justify-content: space-around;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+  max-width: 480px;
+}
+
+.card-body {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 12px;
+  color: var(--color-dark);
+}
+
+.card-title, .card-subtitle {
+  text-align: center;
 }
