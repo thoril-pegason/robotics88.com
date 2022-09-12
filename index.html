@@ -7,15 +7,37 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
   <link href="css/animation.css" rel="stylesheet">
+  <script src="bootstrap.min.js"></script>
 </head>
 <body class="r88-body bg-dark">
-  <nav>
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.svg" alt="Robotics88" height=100>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#article-what-we-do">What We Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#article-the-team">The Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#article-current-projects">Current Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
   <header class="d-flex flex-column align-items-center">
-    <img src="img/logo.svg" alt="Robotics88" class="r88-logo r88-fade-in img-fluid">
+    <h1 class="display-1 m-5 p-5">Precision forestry in a box</h1>
   </header>
   <main class="r88-fade-in">
-    <article class="p-5">
+    <article class="p-5" id="article-what-we-do">
       <h2 class="display-2 mb-5 mt-5">What We Do</h2>
       <ul class="card-group mb-5 pt-5">
         <li class="card">
@@ -41,7 +63,7 @@
         </li>
       </ul>
     </article>
-    <article class="pt-5">
+    <article class="pt-5" id="article-the-team">
       <div class="mb-5 mt-5">
         <h2 class="display-1 mb-5 mt-5">The Team</h2>
         <ul class="card-group mb-5">
@@ -62,7 +84,7 @@
         </ul>
       </div>
     </article>
-    <article class="pt-5">
+    <article class="pt-5" id="article-current-projects">
       <div class="mt-5">
         <h2 class="display-1 mb-5">Current Projects</h2>
         <ul class="card-group pt-5 mb-0">
