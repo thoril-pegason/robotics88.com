@@ -10,11 +10,15 @@
   <script src="bootstrap.min.js"></script>
 </head>
 <body class="r88-body bg-dark">
+
+  <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
+      <!--
       <a class="navbar-brand" href="#">
         <img src="img/logo.svg" alt="Robotics88" height=100>
       </a>
+      -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,74 +37,94 @@
       </div>
     </div>
   </nav>
+
+  <!-- Home -->
   <header class="d-flex flex-column align-items-center justify-content-evenly min-vh-100" style="margin-top: -126px">
     <img src="img/logo.svg" alt="Robotics88" class="r88-logo">
     <h1 class="display-1">Precision forestry in a box</h1>
-    <a href="#what-we-do"><img class="r88-down-arrow r88-move-down" src="img/down-arrow.svg" height=100></a>
+    <a href="#what-we-do"><img class="r88-invert r88-move-down" src="img/arrow-down.svg" height=100></a>
   </header>
+
+  <!-- What We Do -->
   <main class="r88-fade-in">
-    <article class="min-vh-100" id="what-we-do">
-      <h2 class="display-2">What We Do</h2>
+    <article class="min-vh-100 d-flex flex-column justify-content-evenly" id="what-we-do">
+      <div class="mx-auto">
+        <a href="#"><img class="r88-move-down" src="img/arrow-up.svg" height=100></a>
+      </div>
+      <h2 class="display-2 mb-5">What We Do</h2>
       <ul class="card-group">
-        <li class="card">
+        <li class="card mb-5">
           <div class="card-body r88-pop">
-            <img class="r88-emoji" src="img/emoji-judge.svg">
+            <img class="r88-emoji" src="img/emoji-thinking.svg">
             <h3 class="card-title mb-4">Decision-Making</h3> 
             <p>We tailor a proprietary, generalized decision-making algorithm for robots to explore and collect data in diverse environments.</p>
           </div>
         </li>
-        <li class="card">
+        <li class="card mb-5">
           <div class="card-body r88-pop">
-            <img class="r88-emoji" src="img/emoji-wizard.svg">
+            <img class="r88-emoji" src="img/emoji-drone.svg">
             <h3 class="card-title mb-4">Data Stewardship</h3> 
             <p>We collect large amounts of ecological and robotic decision-making data for the purpose of better understanding the environment, climate change and the behaviors of robots.</p>
           </div>
         </li>
-        <li class="card">
+        <li class="card mb-5">
           <div class="card-body r88-pop">
-            <img class="r88-emoji" src="img/emoji-detective.svg">
+            <img class="r88-emoji" src="img/emoji-brain.svg">
             <h3 class="card-title mb-4">Validation &amp; Verification</h3> 
             <p>With quantitative data, we ensure that robotic behavior is effectively understood and aligns with qualitative needs.</p>
           </div>
         </li>
       </ul>
-    </article>
-    <article class="min-vh-100" id="the-team">
-      <div class="mb-5 mt-5">
-        <h2 class="display-1 mb-5 mt-5">The Team</h2>
-        <ul class="card-group mb-5">
-          <li class="card">
-            <div class="card-body r88-pop">
-              <img class="r88-emoji" src="img/emoji-butterfly.svg">
-              <h3 class="card-title mb-3"><a href="https://www.linkedin.com/in/erin-linebarger">Erin M. Linebarger, PhD</a></h3> 
-              <h4 class="card-subtitle">Founder, CEO</h4>
-            </div>
-          </li>
-          <li class="card">
-            <div class="card-body r88-pop">
-              <img class="r88-emoji" src="img/emoji-robot.svg">
-              <h3 class="card-title mb-3"><a href="https://www.linkedin.com/in/tylerlanecodes/">Tyler Lane</a></h3> 
-              <h4 class="card-subtitle">Co-Founder, Chief Engineer</h4>
-            </div>
-          </li>
-        </ul>
+      <div class="mx-auto">
+        <a href="#the-team"><img class="r88-move-down" src="img/arrow-down.svg" height=100></a>
       </div>
     </article>
-    <article class="pt-5" id="current-projects">
-      <div class="mt-5">
-        <h2 class="display-1 mb-5">Current Projects</h2>
-        <ul class="card-group pt-5 mb-0">
-          <li class="card">
-            <strong><a href="https://techpartnerships.noaa.gov/sbir/">NOAA SBIR Phase 1</a></strong>
-            <p>Producing wildfire risk models from autonomous subcanopy UAS surveys.</p>
-          </li>
-          <li class="card">
-            <strong><a href="https://www.xprize.org/home">XPRISE Rainforest</a></strong>
-            <p>Supporting a collective of indiginous people and scientific researchers to provide vegetation mapping of the rainforest for XPRISE.</p>
-          </li>
-        </ul>
+
+    <!-- The Team -->
+    <article class="min-vh-100 d-flex flex-column justify-content-evenly" id="the-team">
+      <div class="mx-auto">
+        <a href="#what-we-do"><img class="r88-invert r88-move-down" src="img/arrow-up.svg" height=100></a>
+      </div>
+      <h2 class="display-1 mb-5">The Team</h2>
+      <ul class="card-group mb-5">
+        <li class="card mb-5">
+          <div class="card-body r88-pop">
+            <img class="r88-emoji" src="img/emoji-butterfly.svg">
+            <h3 class="card-title mb-3"><a href="https://www.linkedin.com/in/erin-linebarger">Erin M. Linebarger, PhD</a></h3> 
+            <h4 class="card-subtitle">Founder, CEO</h4>
+          </div>
+        </li>
+        <li class="card mb-5">
+          <div class="card-body r88-pop">
+            <img class="r88-emoji" src="img/emoji-robot.svg">
+            <h3 class="card-title mb-3"><a href="https://www.linkedin.com/in/tylerlanecodes/">Tyler Lane</a></h3> 
+            <h4 class="card-subtitle">Co-Founder, Chief Engineer</h4>
+          </div>
+        </li>
+      </ul>
+      <div class="mx-auto">
+        <a href="#current-projects"><img class="r88-invert r88-move-down" src="img/arrow-down.svg" height=100></a>
       </div>
     </article>
+
+    <!-- Current Projects -->
+    <article class="min-vh-100 d-flex flex-column justify-content-evenly" id="current-projects">
+      <div class="mx-auto">
+        <a href="#the-team"><img class="r88-move-down" src="img/arrow-up.svg" height=100></a>
+      </div>
+      <h2 class="display-1 mb-5">Current Projects</h2>
+      <ul class="card-group pt-5 mb-0">
+        <li class="card">
+          <h3 class="card-title mb-4"><a href="https://techpartnerships.noaa.gov/sbir/">NOAA SBIR Phase 1</a></h3> 
+          <p>Producing wildfire risk models from autonomous subcanopy UAS surveys.</p>
+        </li>
+        <li class="card">
+          <h3 class="card-title mb-4"><a href="https://techpartnerships.noaa.gov/sbir/"><a href="https://www.xprize.org/home">XPRISE Rainforest</a></h3> 
+          <p>Supporting a collective of indiginous people and scientific researchers to provide vegetation mapping of the rainforest for XPRISE.</p>
+        </li>
+      </ul>
+    </article>
+
   </main>
   <footer>
     <p>&copy; 2022 <strong>Robotics 88</strong></p>
