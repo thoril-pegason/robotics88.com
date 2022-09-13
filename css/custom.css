@@ -56,7 +56,11 @@ h3 {
 }
 
 a {
-  color: #FA3C19;
+  color: var(--color-light-accent);
+}
+
+a:hover, a:visited {
+  color: var(--color-dark-accent);
 }
 
 li {
