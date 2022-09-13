@@ -14,16 +14,16 @@
   animation: fadeIn 1s ease-in;
 }
 
-.r88-move-down {
+.r88-transition {
   transition-duration: 0.1s;
+}
+
+.r88-move-up:hover {
+  transform: translateY(-1rem);
 }
 
 .r88-move-down:hover {
   transform: translateY(1rem);
-}
-
-.r88-pop {
-  transition-duration: 0.1s;
 }
 
 .r88-pop:hover {
