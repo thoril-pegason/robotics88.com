@@ -27,6 +27,7 @@
 .r88-logo {
   display: block;
   max-width: 720px;
+  width: 80%;
 }
 
 .r88-body {
@@ -64,10 +65,13 @@ h1, h2, h3, strong {
 }
 
 h1, h2 {
-  font-family: "Gin", serif;
   text-align: center;
-  font-variant: small-caps;
   text-shadow: 2px 2px 2px var(--color-iconic);
+}
+
+h2 {
+  font-family: "Gin", serif;
+  font-variant: small-caps;
 }
 
 a {
