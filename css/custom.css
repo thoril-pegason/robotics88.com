@@ -42,6 +42,10 @@
   margin: 0 auto;
 }
 
+.r88-down-arrow {
+  filter: invert(1);
+}
+
 .r88-emoji {
   max-width: 12rem;
   display: block;
