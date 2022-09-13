@@ -1,11 +1,28 @@
 @font-face {
-  font-family: "Ubuntu";
-  src: url('../fonts/ubuntu-regular.ttf') format('truetype');
+  font-family: "Montserrat Light";
+  src: url('../fonts/montserrat-light.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "Ubuntu Bold";
-  src: url('../fonts/ubuntu-bold.ttf') format('truetype');
+  font-family: "Gin";
+  src: url('../fonts/gin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url('../fonts/playfair-display.woff2') format('woff2');
+}
+
+
+:root {
+  --color-dark: #373A36;
+  --color-light: #DAE1E9;
+  --color-action: #6ABF4B;
+  --color-iconic: #5B7F95;
+  --color-light-accent: #4C9C2E;
+  --color-dark-accent: #4A773C;
+  --color-warning-accent: #CF922F;
+  --color--danger-accent: #F44336;
 }
 
 .r88-max-width {
@@ -23,12 +40,19 @@
 }
 
 .r88-body {
-  font-family: "Ubuntu", sans-serif;
-  color: white;
+  font-family: "Montserrat Light", sans-serif;
+  color: var(--color-light);
+  background-color: var(--color-dark);
+  background-image: url("../img/asfalt-light.png");
+  background-attachment: fixed;
 }
 
 h1, h2, h3, strong {
-  font-family: "Ubuntu Bold", sans-serif;
+  font-family: "Gin", sans-serif;
+}
+
+h3 {
+  font-family: "Playfair Display", sans-serif;
 }
 
 a {
