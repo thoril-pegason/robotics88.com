@@ -54,6 +54,13 @@
   margin-top: -6rem;
 }
 
+@media (max-width: 768px) {
+  .r88-arrow-up {
+    display: none;
+  }
+}
+
+
 article:nth-child(odd) {
   background-color: var(--color-light);
   color: var(--color-dark);
