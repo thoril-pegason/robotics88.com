@@ -32,10 +32,8 @@
 
 .r88-body {
   font-family: "Montserrat Light", sans-serif;
-  background-color: var(--color-dark);
+  background-color: black;
   color: var(--color-light);
-  background-image: url("../img/asfalt-light.png");
-  background-attachment: fixed;
 }
 
 .r88-max-width {
@@ -55,13 +53,18 @@
 }
 
 @media (max-width: 768px) {
-  .r88-arrow-up {
+  .r88-arrow-up, .r88-arrow-down {
     display: none;
   }
 }
 
+article {
+  background-color: var(--color-dark);
+  background-image: url("../img/asfalt-light.png");
+  background-attachment: fixed;
+}
 
-article:nth-child(odd) {
+article:nth-child(even) {
   background-color: var(--color-light);
   color: var(--color-dark);
   background-image: url("../img/cardboard.png");
@@ -79,6 +82,10 @@ h1, h2 {
 h2 {
   font-family: "Gin", serif;
   font-variant: small-caps;
+}
+
+ul {
+  padding-left: 0;
 }
 
 a {
