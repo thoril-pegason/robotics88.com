@@ -14,11 +14,6 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <!--
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.svg" alt="Robotics88" height=100>
-      </a>
-      -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -32,6 +27,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#current-projects">Current Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -49,10 +47,8 @@
 
   <!-- What We Do -->
   <main class="r88-fade-in">
-    <article class="min-vh-100 d-flex flex-column justify-content-evenly" id="what-we-do">
-      <div class="mx-auto">
-        <a href="#"><img class="r88-arrow-up r88-transition r88-move-up" src="img/arrow-up-dark.svg" height=100></a>
-      </div>
+    <article class="min-vh-100 d-flex flex-column align-items-center justify-content-evenly" id="what-we-do">
+      <a href="#"><img class="r88-arrow-up r88-transition r88-move-up" src="img/arrow-up-dark.svg" height=100></a>
       <h2 class="display-2 mb-5">What We Do</h2>
       <ul class="card-group">
         <li class="card mb-5">
@@ -77,16 +73,12 @@
           </div>
         </li>
       </ul>
-      <div class="mx-auto">
-        <a href="#the-team"><img class="r88-transition r88-move-down" src="img/arrow-down-dark.svg" height=100></a>
-      </div>
+      <a href="#the-team"><img class="r88-transition r88-move-down" src="img/arrow-down-dark.svg" height=100></a>
     </article>
 
     <!-- The Team -->
-    <article class="min-vh-100 d-flex flex-column justify-content-evenly" id="the-team">
-      <div class="mx-auto">
-        <a href="#what-we-do"><img class="r88-arrow-up r88-transition r88-move-up" src="img/arrow-up-light.svg" height=100></a>
-      </div>
+    <article class="min-vh-100 d-flex flex-column align-items-center justify-content-evenly" id="the-team">
+      <a href="#what-we-do"><img class="r88-arrow-up r88-transition r88-move-up" src="img/arrow-up-light.svg" height=100></a>
       <h2 class="display-1 mb-5">The Team</h2>
       <ul class="card-group mb-5 justify-content-center">
         <li class="card mb-5">
@@ -104,16 +96,12 @@
           </div>
         </li>
       </ul>
-      <div class="mx-auto">
-        <a href="#current-projects"><img class="r88-transition r88-move-down" src="img/arrow-down-light.svg" height=100></a>
-      </div>
+      <a href="#current-projects"><img class="r88-transition r88-move-down" src="img/arrow-down-light.svg" height=100></a>
     </article>
 
     <!-- Current Projects -->
-    <article class="min-vh-100 d-flex flex-column justify-content-evenly" id="current-projects">
-      <div class="mx-auto">
-        <a href="#the-team"><img class="r88-arrow-up r88-transition r88-move-up" src="img/arrow-up-dark.svg" height=100></a>
-      </div>
+    <article class="min-vh-100 d-flex flex-column align-items-center justify-content-evenly" id="current-projects">
+      <a href="#the-team"><img class="r88-arrow-up r88-transition r88-move-up" src="img/arrow-up-dark.svg" height=100></a>
       <h2 class="display-1 mb-5">Current Projects</h2>
       <ul class="card-group pt-5 mb-0">
         <li class="card">
@@ -125,7 +113,26 @@
           <p>Supporting a collective of indiginous people and scientific researchers to provide vegetation mapping of the rainforest for XPRISE.</p>
         </li>
       </ul>
+      <a href="#contact-us"><img class="r88-transition r88-move-down" src="img/arrow-down-dark.svg" height=100></a>
     </article>
+
+  <!-- Contact Us -->
+  <article class="min-vh-100 d-flex flex-column align-items-center justify-content-evenly" id="contact-us">
+    <a href="#current-projects"><img class="r88-arrow-up r88-transition r88-move-up" src="img/arrow-up-light.svg" height=100></a>
+    <h2 class="display-1 mb-5">Contact Us</h2>
+    <form action="https://formspree.io/f/mjvzyjgp" method="POST" class="container-fluid p-2" style="max-width:720px">
+      <div class="mb-3">
+        <label for="email" class="form-label h3">Your email</label>
+        <input type="email" name="email" class="form-control form-control-lg" id="email">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label h3">Your message</label>
+        <textarea name="message" class="form-control form-control-lg" id="message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Contact Us</button>
+    </form>
+    <div></div>
+  </article>
 
   </main>
   <footer>
